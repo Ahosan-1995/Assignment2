@@ -395,7 +395,6 @@ main{
     right: -140px;
     bottom: 80px;
     transform: rotate(-35deg);
-    
 }
 
 
@@ -405,7 +404,9 @@ main{
 
 .extrasection-title{
     padding-top: 100px;
+    padding-bottom: 50px;
     text-align: center;
+    font-size: 30px;
 }
 
 .extrasection-customer{
