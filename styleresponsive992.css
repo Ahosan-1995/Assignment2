@@ -1,0 +1,68 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (max-width:1100px) {
+
+    .text-button{
+        width: 70%;
+        height: auto;
+    }
+
+.section2 .image img{
+    width: 100%;
+
+}
+
+.text-button p{
+    font-size: 15px;
+}
+
+.buttonmain{
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+
+}
+
+
+.section2{
+    margin-top: 50px;
+    height: 500px;
+}
+
+
+.section3text{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+
+.section4imagetext img {
+    width: 100%;
+}
+
+.section4text2{
+    font-size: 12px;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    background-color: #FF5400;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    right: 0px;
+    bottom: 80px;
+    transform: rotate(-35deg);
+    
+}
+
+
+
+}
