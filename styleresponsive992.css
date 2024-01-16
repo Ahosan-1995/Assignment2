@@ -7,18 +7,31 @@
 
 @media screen and (max-width:1100px) {
 
+    .section2{
+        height: 1300px;
+    }
+
     .text-button{
         width: 70%;
-        height: auto;
     }
+
+
+
+
 
 .section2 .image img{
     width: 100%;
 
 }
 
-.text-button p{
-    font-size: 15px;
+.text-button li{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+.text-button h1{
+    font-size: 30px;
 }
 
 .buttonmain{
@@ -61,6 +74,12 @@
     bottom: 80px;
     transform: rotate(-35deg);
     
+}
+
+.section4grid img{
+    height: 170px;
+    width: auto;
+
 }
 
 

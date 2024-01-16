@@ -50,7 +50,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 900px;
+        height: 1200px;
     }
 
 .section2 img{
@@ -58,7 +58,8 @@
 }
 
 .text-button{
-    padding: 30px;
+    padding: 20px;
+    height: 1200px;
 }
 
 
@@ -194,4 +195,16 @@
     width: 100%;
 }
   
+
+
+/* Extra part */
+.extrasection-customer{
+    border: 2px solid red;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 }

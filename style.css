@@ -86,7 +86,7 @@ main{
 
 .section1text p{
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-family: Mulish;
     font-weight: 400;
     text-align: center;
@@ -136,7 +136,7 @@ main{
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    height: 550px;
+    height: 700px;
 }
 
 /* This section for section two for chcek grid layout */
@@ -160,12 +160,12 @@ main{
 }
 
 
-.text-button p{
+.text-button li{
     color: rgba(19, 19, 24, 0.70);
     font-size: 20px;
     font-family: Mulish;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .buttonmain{
@@ -354,6 +354,13 @@ main{
 }
 
 
+.section4grid img{
+    height: 200px;
+    width: auto;
+
+}
+
+
 
 .section4text{
     width: 40%;
@@ -396,47 +403,52 @@ main{
 
 /* Extra Section Start here Extra Section Start here Extra Section Start here Extra Section Start here*/
 
-.section5extra{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+.extrasection-title{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.extrasection-customer{
+    /* border: 2px solid red; */
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.customer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     background-color: #FF5400;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
 }
 
-.section5extra1{
-    grid-column: 1/span 1;
-    grid-row: 1/span 1;
-
+.customer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #FF5400;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
 }
 
-.section5extra2{
-    grid-column:2/span 1 ;
-    grid-row:1/span 1 ;
-
-}
-
-.section5extra3{
-    grid-column: 3/span 1 ;
-    grid-row:1/span 1 ;
-
-}
-
-.section5extra4{
-    grid-column: 1/span 1;
-    grid-row: 2/span 1 ;
-
-}
-
-.section5extra5{
-    grid-column:2/span 1 ;
-    grid-row:2/span 1;
-
-}
-
-.section5extra6{
-    grid-column:3/span 1 ;
-    grid-row:2/span 1;
-
+.customer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #FF5400;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
 }
 
 
