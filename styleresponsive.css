@@ -76,7 +76,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
     /* background-color: #131318; */
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     gap: 20px;
 
 }
@@ -194,7 +194,13 @@
 ..section4imagetext img {
     width: 100%;
 }
-  
+
+.section4text2{
+
+    bottom: 60px;
+
+    
+}
 
 
 /* Extra part */
