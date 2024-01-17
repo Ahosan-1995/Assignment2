@@ -21,6 +21,11 @@
     
     }
 
+    .section1text h1
+{
+    font-size: 40px;
+}
+
 
     .navleft a {
         display: none;
@@ -33,7 +38,7 @@
 
 
     .text-button h1{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 800;
     }
     
@@ -212,5 +217,58 @@
     flex-direction: column;
     gap: 20px;
 }
+
+
+/* Bonus style start here */
+
+/* 1st one */
+
+.bonus-icon-text{
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+.bonus .bonus-main{
+    padding: 30px;
+}
+
+
+/* 2nd one */
+
+.bonus2 .bonus-main{
+
+    width: 40%;
+
+}
+
+/* 3rd one */
+
+.bonus3{
+    background-image: url(./Images/maldivs.jpg);
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.bonus-icon-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+.bonus3 .bonus-main{
+
+    padding: 30px;
+
 
 }

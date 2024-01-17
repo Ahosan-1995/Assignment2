@@ -492,3 +492,90 @@ footer{
     width: 60%;
     padding-bottom: 20px;
 }
+
+
+
+/* Bonus style start here */
+
+/* 1st one */
+.bonus{
+    background-image: url(./Images/saintmartain.jpg);
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.bonus-icon-text{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+.bonus .bonus-main{
+    background-color: #ffffffb9;
+    border-radius: 20px;
+    padding: 70px;
+    width: 40%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+
+/* 2nd one */
+.bonus2{
+    background-image: url(./Images/Rangamati.jpg);
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+.bonus2 .bonus-main{
+    background-color: #ffffffb9;
+    border-radius: 20px;
+    padding: 70px;
+    width: 40%;
+    position: absolute;
+    Left: 100px;
+    top: 100px;
+}
+
+/* 3rd one */
+
+.bonus3{
+    background-image: url(./Images/maldivs.jpg);
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.bonus-icon-text{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+.bonus3 .bonus-main{
+    background-color: #ffffffb9;
+    border-radius: 20px;
+    padding: 70px;
+    width: 40%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
